@@ -24,7 +24,7 @@ This capstone project builds an end-to-end machine learning system that helps in
 - `train_models.py`: trains the models and saves them
 - `streamlit_app.py`: interactive investment dashboard
 - `src/real_estate_pipeline.py`: preprocessing, feature engineering, modeling, and prediction utilities
-- `models/`: trained artifact folder
+- `models/`: generated trained artifacts (created by `python train_models.py`; not committed)
 - `plots/`: generated charts and summary JSON
 
 ## Key ML components
@@ -41,6 +41,8 @@ pip install -r requirements.txt
 python train_models.py
 streamlit run streamlit_app.py
 ```
+
+Training artifacts and MLflow run data are generated locally and excluded from Git to keep the repository lightweight.
 
 ## Results to expect
 
