@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated experiment tracking data
+mlruns/
+mlflow.db
+
+# Re-create trained models with `python train_models.py`
+models/*.joblib

@@ -1,0 +1,27 @@
+{
+  "price_summary": {
+    "mean": 255.16,
+    "median": 255.1,
+    "max": 500.0,
+    "min": 10.02
+  },
+  "top_cities_by_average_price": {
+    "Bangalore": 260.19,
+    "Coimbatore": 259.5,
+    "Chennai": 259.48,
+    "Noida": 258.93,
+    "Mysore": 258.84,
+    "Jaipur": 258.51,
+    "Hyderabad": 257.94,
+    "Bhopal": 257.87,
+    "Indore": 257.6,
+    "Vijayawada": 257.18
+  },
+  "good_investment_share": 51.14,
+  "price_by_property_type": {
+    "Unknown": 9279.74,
+    "Apartment": 0.13,
+    "Villa": 0.13,
+    "Independent House": 0.13
+  }
+}
